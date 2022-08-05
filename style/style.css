@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300&display=swap');
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background: url("https://png.pngtree.com/thumb_back/fw800/back_our/20190628/ourmid/pngtree-light-blue-background-image_264178.jpg") no-repeat center center / cover;
+    padding: 100px 0;
+}
+
+h3 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.container {
+    width: 800px;
+    min-height: 500px;
+    border: 10px solid #fff;
+    margin: 0 auto;
+    background: #fff
+}
+
+.header {
+    display: flex;
+    height: 150px;
+}
+
+.title-block {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    width: 81%;
+    height: 100%;
+    font-size: 30px;
+    background: url("https://static.vecteezy.com/system/resources/thumbnails/002/695/213/small_2x/abstract-background-hexagons-design-science-futuristic-energy-technology-hi-tech-digital-concept-free-vector.jpg") no-repeat center center / cover;
+    margin-right: 10px;
+}
+
+.userpic {
+    display: flex;
+    width: 19%;
+    height: 100%;
+}
+
+.nav ul {
+    display: flex;
+    background: rgb(230, 230, 230);
+    margin: 10px 0;
+}
+
+.nav li a {
+    display: flex;
+    padding: 20px;
+    text-decoration: none;
+    color: green;
+    font-weight: bold;
+    border-right: 1px solid #d1d1d1;
+    transition: background .5s ease;
+}
+
+.nav li a:hover {
+    background: rgb(196, 196, 196);
+}
+
+.content-wrapper {
+    display: flex;
+}
+
+.content{
+    width: 70%;
+    padding: 20px;
+    line-height: 19px;
+}
+
+.sidebar {
+    width: 30%;
+    padding: 20px;
+}
+
+.skills li {
+    padding: 7px 0;
+    transition: transform .5s ease;
+    cursor: pointer;
+}
+
+.skills li:hover {
+    transform: translateX(10px);
+}
